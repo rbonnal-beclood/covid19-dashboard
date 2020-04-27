@@ -4,7 +4,7 @@ import ReactMapGL, {Source, Layer} from 'react-map-gl'
 
 import useBounds from '../hooks/bounds'
 
-const Map = ({code, data, layers, hideAttribution, onHover, onClick, children}) => {
+const Map = ({code, data, layers, mapStyle, hideAttribution, onHover, onClick, children}) => {
   const mapRef = useRef()
   const viewport = useBounds(mapRef, code)
 
@@ -15,7 +15,7 @@ const Map = ({code, data, layers, hideAttribution, onHover, onClick, children}) 
           {...viewport}
           width='100%'
           height='100%'
-          mapStyle='https://etalab-tiles.fr/styles/osm-bright/style.json'
+          mapStyle={mapStyle || 'https://etalab-tiles.fr/styles/osm-bright/style.json'}
           interactiveLayerIds={onHover || onClick ? layers.map(layer => layer.id) : null}
           onHover={onHover}
           onClick={onClick}

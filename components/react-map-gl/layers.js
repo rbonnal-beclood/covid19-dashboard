@@ -1,5 +1,45 @@
 import colors from '../../styles/colors'
 
+export const MasksLayer = {
+  id: 'masks',
+  type: 'circle',
+  source: 'masks',
+  filter: ['>', 'masks', 0],
+  paint: {
+    'circle-opacity': 0.6,
+    'circle-color': colors.lightBlue,
+    'circle-radius': [
+      'interpolate',
+      ['linear'],
+      ['sqrt', ['number', ['get', 'masks']]],
+      0,
+      10,
+      100,
+      70
+    ]
+  }
+}
+
+export const CompaniesMasksLayer = {
+  id: 'masksCompanies',
+  type: 'circle',
+  source: 'masksCompanies',
+  filter: ['>', 'masksCompanies', 0],
+  paint: {
+    'circle-opacity': 0.6,
+    'circle-color': colors.lightBlue,
+    'circle-radius': [
+      'interpolate',
+      ['linear'],
+      ['sqrt', ['number', ['get', 'masksCompanies']]],
+      0,
+      10,
+      100,
+      70
+    ]
+  }
+}
+
 export const testsRealisesLayer = {
   id: 'testsRealises',
   type: 'circle',
