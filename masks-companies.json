@@ -1,0 +1,854 @@
+[
+  {
+    "company": "ZIFORT MEDICAL By Plastiques ZD",
+    "commune": "Saint-Martin-du-Fresne",
+    "dep": 1,
+    "masks": 50000
+  },
+  {
+    "company": "Montagut / BONNETERIE CEVENOLE",
+    "commune": "Guilherand Granges",
+    "dep": 7,
+    "masks": 0
+  },
+  {
+    "company": "Connecting Resilience",
+    "commune": "Dié",
+    "dep": 26,
+    "masks": 800
+  },
+  {
+    "company": "Porcher industries",
+    "commune": "La Tour du Pin",
+    "dep": 38,
+    "masks": 0
+  },
+  {
+    "company": "Francital environnement",
+    "commune": "Bourgoin-Jallieu",
+    "dep": 38,
+    "masks": 1000
+  },
+  {
+    "company": "Tissages Denantes",
+    "commune": "Voiron",
+    "dep": 38,
+    "masks": 20000
+  },
+  {
+    "company": "Thuasne",
+    "commune": "Saint-Étienne",
+    "dep": 42,
+    "masks": 50000
+  },
+  {
+    "company": "Tissages de Charlieu (LTC)",
+    "commune": "Charlieu",
+    "dep": 42,
+    "masks": 1270000
+  },
+  {
+    "company": "Henitex",
+    "commune": "Riorges",
+    "dep": 42,
+    "masks": 350000
+  },
+  {
+    "company": "Marcoux Lafay",
+    "commune": "Sainte-Agathe-la-Bouteresse",
+    "dep": 42,
+    "masks": 0
+  },
+  {
+    "company": "AJ Biais",
+    "commune": "Saint-Étienne",
+    "dep": 42,
+    "masks": 40000
+  },
+  {
+    "company": "Belinac",
+    "commune": "Saint-Just-Saint-Rambert",
+    "dep": 42,
+    "masks": 8000
+  },
+  {
+    "company": "Bayart Vanoutryve TaL (BV TAL)",
+    "commune": "Charlieu",
+    "dep": 42,
+    "masks": 30000
+  },
+  {
+    "company": "Pamotex",
+    "commune": "Pélussin",
+    "dep": 42,
+    "masks": 0
+  },
+  {
+    "company": "Jean Ruiz",
+    "commune": "Roanne",
+    "dep": 42,
+    "masks": 12000
+  },
+  {
+    "company": "Sigvaris",
+    "commune": "Saint-Just-Saint-Rambert",
+    "dep": 42,
+    "masks": 80000
+  },
+  {
+    "company": "Valdeco / Fursa",
+    "commune": "Brioude",
+    "dep": 43,
+    "masks": 50000
+  },
+  {
+    "company": "D’Ennery Confection",
+    "commune": "Saint-Germain-Laprade",
+    "dep": 43,
+    "masks": 1500
+  },
+  {
+    "company": "Technologistique",
+    "commune": "Aulnat",
+    "dep": 63,
+    "masks": 15000
+  },
+  {
+    "company": "Boldoduc",
+    "commune": "Dardilly",
+    "dep": 69,
+    "masks": 131000
+  },
+  {
+    "company": "Deveaux SAS",
+    "commune": "Saint-Vincent-de-Reins",
+    "dep": 69,
+    "masks": 300000
+  },
+  {
+    "company": "Les Ateliers Ragot",
+    "commune": "Arnas",
+    "dep": 69,
+    "masks": 8400
+  },
+  {
+    "company": "Rauch",
+    "commune": "Tarare",
+    "dep": 69,
+    "masks": 25000
+  },
+  {
+    "company": "SNECL (Soditil)",
+    "commune": "Lyon",
+    "dep": 69,
+    "masks": 0
+  },
+  {
+    "company": "Cepovett",
+    "commune": "Gleizé",
+    "dep": 69,
+    "masks": 100000
+  },
+  {
+    "company": "Diatex",
+    "commune": "Saint-Genis-Laval",
+    "dep": 69,
+    "masks": 25000
+  },
+  {
+    "company": "Groupe Lépine",
+    "commune": "Genay",
+    "dep": 69,
+    "masks": 12500
+  },
+  {
+    "company": "L’artisan costumier",
+    "commune": "Feyzin",
+    "dep": 69,
+    "masks": 2000
+  },
+  {
+    "company": "Opmatis",
+    "commune": "Les Olmes",
+    "dep": 69,
+    "masks": 5000
+  },
+  {
+    "company": "Wair",
+    "commune": "Lyon",
+    "dep": 69,
+    "masks": 300
+  },
+  {
+    "company": "Filtration SA",
+    "commune": "Ternay",
+    "dep": 69,
+    "masks": 50000
+  },
+  {
+    "company": "La Plastose",
+    "commune": "Lyon",
+    "dep": 69,
+    "masks": 1200
+  },
+  {
+    "company": "Société nouvelle tissages Carret",
+    "commune": "Saint-Genix-sur-Guiers",
+    "dep": 73,
+    "masks": 150000
+  },
+  {
+    "company": "Alterosac",
+    "commune": "Annemasse",
+    "dep": 74,
+    "masks": 0
+  },
+  {
+    "company": "Chamatex (Groupe Chamatex / Chamatex / Pierre Rocle)",
+    "commune": ["Ardoix", "Tarare"],
+    "dep": [7, 69],
+    "masks": 30000
+  },
+  {
+    "company": "Chamatex (Groupe Chamatex / Chamatex / Pierre Rocle)",
+    "commune": ["Ardoix", "Tarare"],
+    "dep": [7, 69],
+    "masks": 0
+  },
+  {
+    "company": "Bonnefoy Creations",
+    "commune": "Les Villettes",
+    "dep": 43,
+    "masks": 5000
+  },
+  {
+    "company": "Epau-Nova",
+    "commune": "Mathay",
+    "dep": 25,
+    "masks": 10000
+  },
+  {
+    "company": "Adapei Pro70",
+    "commune": "Vesoul",
+    "dep": 70,
+    "masks": 15000
+  },
+  {
+    "company": "Geochanvre F",
+    "commune": "Lézinnes",
+    "dep": 89,
+    "masks": 150000
+  },
+  {
+    "company": "La compagnie Dumas",
+    "commune": "Tonnerre",
+    "dep": 89,
+    "masks": 0
+  },
+  {
+    "company": "Manufacture Dalmard Marine",
+    "commune": "Pimpol",
+    "dep": 22,
+    "masks": 0
+  },
+  {
+    "company": "Les Ateliers FIM",
+    "commune": ["Fougères", "La Flèche", "Brulon", "Villemandeur"],
+    "dep": [32, 72, 45],
+    "masks": 90000
+  },
+  {
+    "company": "Pavoifêtes",
+    "commune": "Tours",
+    "dep": 37,
+    "masks": 3500
+  },
+  {
+    "company": "TSC",
+    "commune": "Angecourt",
+    "dep": 8,
+    "masks": 50000
+  },
+  {
+    "company": "Atelier d’Ariane",
+    "commune": "Lavau",
+    "dep": 10,
+    "masks": 140000
+  },
+  {
+    "company": "Le coq sportif",
+    "commune": "Romilly-sur-Seine",
+    "dep": 10,
+    "masks": 2000
+  },
+  {
+    "company": "Bonneterie Chanteclair",
+    "commune": "Saint-Pouange",
+    "dep": 10,
+    "masks": 23000
+  },
+  {
+    "company": "Medistyl",
+    "commune": "Saint-André-les-Vergers",
+    "dep": 10,
+    "masks": 3000
+  },
+  {
+    "company": "Lacoste Opération",
+    "commune": "Troyes",
+    "dep": 10,
+    "masks": 38000
+  },
+  {
+    "company": "HDPR (Housse de Protection Robotique)",
+    "commune": "Andelot-Blancheville",
+    "dep": 52,
+    "masks": 1000
+  },
+  {
+    "company": "Dodo",
+    "commune": "Saint-Avold",
+    "dep": 57,
+    "masks": 35000
+  },
+  {
+    "company": "Labonal",
+    "commune": "Dambach-la-Ville",
+    "dep": 67,
+    "masks": 50000
+  },
+  {
+    "company": "Freudenberg Performance Materials (Pôle textile Alsace)",
+    "commune": "Guebwiller",
+    "dep": 68,
+    "masks": 150000
+  },
+  {
+    "company": "Mitwill Textiles Europe",
+    "commune": "Sausheim",
+    "dep": 68,
+    "masks": 125000
+  },
+  {
+    "company": "Résilience",
+    "commune": "Ferdrupt",
+    "dep": 88,
+    "masks": 400000
+  },
+  {
+    "company": "Valrupt TGV Industries",
+    "commune": "Rupt-sur-Moselle",
+    "dep": 88,
+    "masks": 180000
+  },
+  {
+    "company": "Berjac",
+    "commune": "Dogneville",
+    "dep": 88,
+    "masks": 25000
+  },
+  {
+    "company": "Blanc de Gérardmer",
+    "commune": "Gérardmer",
+    "dep": 88,
+    "masks": 0
+  },
+  {
+    "company": "Linvosges",
+    "commune": "Gérardmer",
+    "dep": 88,
+    "masks": 0
+  },
+  {
+    "company": "Fashion Bulldog",
+    "commune": "Saint-Amé",
+    "dep": 88,
+    "masks": 380
+  },
+  {
+    "company": "ATELIER TB",
+    "commune": "Épinal",
+    "dep": 88,
+    "masks": 0
+  },
+  {
+    "company": "Garnier-Thiebaut",
+    "commune": "Gérardmer",
+    "dep": 88,
+    "masks": 17500
+  },
+  {
+    "company": "UTTI",
+    "commune": "Tourcoing",
+    "dep": 59,
+    "masks": 2800
+  },
+  {
+    "company": "Broderies Leveaux",
+    "commune": "Walincourt-Selvigny",
+    "dep": 59,
+    "masks": 200000
+  },
+  {
+    "company": "Ariane 7",
+    "commune": "Valenciennes",
+    "dep": 59,
+    "masks": 0
+  },
+  {
+    "company": "Dupont Beaudeux",
+    "commune": "Annœullin",
+    "dep": 59,
+    "masks": 0
+  },
+  {
+    "company": "Fremaux Delorme",
+    "commune": ["Haubourdin", "Nieppe"],
+    "dep": 59,
+    "masks": 3000
+  },
+  {
+    "company": "Mortelecque",
+    "commune": "Provin",
+    "dep": 59,
+    "masks": 30000
+  },
+  {
+    "company": "Vanderschooten / Norlinge",
+    "commune": "Nieppe",
+    "dep": 59,
+    "masks": 100000
+  },
+  {
+    "company": "Mtechnologies",
+    "commune": "Tourcoing",
+    "dep": 59,
+    "masks": 500
+  },
+  {
+    "company": "MAISON LEVEQUE",
+    "commune": "Villers-Outréaux",
+    "dep": 59,
+    "masks": 5000
+  },
+  {
+    "company": "Chargeurs PCC / Lainière de Picardie",
+    "commune": "Buire-Courcelles",
+    "dep": 80,
+    "masks": 2000000
+  },
+  {
+    "company": "CIT DESSAINT",
+    "commune": "Amiens",
+    "dep": 80,
+    "masks": 6000
+  },
+  {
+    "company": "ETS Malterre SARL",
+    "commune": "Moreuil",
+    "dep": 80,
+    "masks": 44000
+  },
+  {
+    "company": "Balenciaga",
+    "commune": "Paris",
+    "dep": 75,
+    "masks": 5790
+  },
+  {
+    "company": "Mask generation",
+    "commune": "Champs-sur- Marne",
+    "dep": 77,
+    "masks": 0
+  },
+  {
+    "company": "Baby’s secret (Leena Paris)",
+    "commune": "Longpont-sur-Orge",
+    "dep": 91,
+    "masks": 20000
+  },
+  {
+    "company": "Christex",
+    "commune": "Gif-sur-Yvette",
+    "dep": 91,
+    "masks": 25000
+  },
+  {
+    "company": "Verticale",
+    "commune": "Neuilly-sur-Seine",
+    "dep": 92,
+    "masks": 800
+  },
+  {
+    "company": "Anes en Ville / WR Consulting / CHU St Maurice",
+    "commune": "Maisons-Alfort",
+    "dep": 94,
+    "masks": 0
+  },
+  {
+    "company": "Les Boutis de Lucie",
+    "commune": "Eaubonne",
+    "dep": 95,
+    "masks": 0
+  },
+  {
+    "company": "Coco&Rico",
+    "commune": "Paris",
+    "dep": 75,
+    "masks": 50000
+  },
+  {
+    "company": "Oscar de la table",
+    "commune": "Paris",
+    "dep": 75,
+    "masks": 190000
+  },
+  {
+    "company": "A&R ASSOCIATES",
+    "commune": "Villiers-sur-Marne",
+    "dep": 94,
+    "masks": 30000
+  },
+  {
+    "company": "Belice",
+    "commune": "Pierrefitte",
+    "dep": 93,
+    "masks": 3400
+  },
+  {
+    "company": "Textile Events",
+    "commune": "Stains",
+    "dep": 93,
+    "masks": 10000
+  },
+  {
+    "company": "Liste Rouge",
+    "commune": "Condé-sur-Noireau",
+    "dep": 14,
+    "masks": 7500
+  },
+  {
+    "company": "LECUYER",
+    "commune": "Lisieux",
+    "dep": 14,
+    "masks": 50000
+  },
+  {
+    "company": "Tricots Saint James",
+    "commune": "Saint-James",
+    "dep": 50,
+    "masks": 125000
+  },
+  {
+    "company": "Ateliers Grandis",
+    "commune": "Saint-Pair-sur-Mer",
+    "dep": 50,
+    "masks": 80000
+  },
+  {
+    "company": "KIPLAY",
+    "commune": "Saint-Pierre-d’Entremont",
+    "dep": 61,
+    "masks": 8000
+  },
+  {
+    "company": "Romain Briffault",
+    "commune": "Morgny-la-Pommeraye",
+    "dep": 76,
+    "masks": 2500
+  },
+  {
+    "company": "Nextemballage",
+    "commune": "Nersac",
+    "dep": 16,
+    "masks": 100000
+  },
+  {
+    "company": "Amarine Couture",
+    "commune": "Saintes",
+    "dep": 17,
+    "masks": 0
+  },
+  {
+    "company": "DSL",
+    "commune": "Capbreton",
+    "dep": 40,
+    "masks": 5000
+  },
+  {
+    "company": "Hexagone Confection",
+    "commune": "Hossegor",
+    "dep": 40,
+    "masks": 0
+  },
+  {
+    "company": "Stores Dublanc ALS Confort",
+    "commune": "Aire-sur-l’Adour",
+    "dep": 40,
+    "masks": 340
+  },
+  {
+    "company": "ATS SUBLICONCEPT",
+    "commune": "Mauléon Soule",
+    "dep": 64,
+    "masks": 1000
+  },
+  {
+    "company": "Etablissements Lepere Ousport",
+    "commune": "Nay",
+    "dep": 64,
+    "masks": 2500
+  },
+  {
+    "company": "Tissage Moutet",
+    "commune": "Orthez",
+    "dep": 64,
+    "masks": 0
+  },
+  {
+    "company": "Jules Tournier & fils",
+    "commune": "Mazamet",
+    "dep": 81,
+    "masks": 20000
+  },
+  {
+    "company": "Radiante Groupe ESSITY",
+    "commune": "Châtellerault",
+    "dep": 86,
+    "masks": 3000
+  },
+  {
+    "company": "Navailles",
+    "commune": "Hagetmau",
+    "dep": 40,
+    "masks": 5000
+  },
+  {
+    "company": "PLIM",
+    "commune": ["Melle", "Poitiers", "Limoges"],
+    "dep": [79, 86, 87],
+    "masks": 9400
+  },
+  {
+    "company": "Eminence",
+    "commune": "Aimargues",
+    "dep": 30,
+    "masks": 85000
+  },
+  {
+    "company": "Sericyne",
+    "commune": "Monoblet",
+    "dep": 30,
+    "masks": 500
+  },
+  {
+    "company": "Sonefi",
+    "commune": "Saint-Laurent-des-Arbres",
+    "dep": 30,
+    "masks": 5000
+  },
+  {
+    "company": "Ergosanté",
+    "commune": "Anduze",
+    "dep": 30,
+    "masks": 0
+  },
+  {
+    "company": "AERTEC",
+    "commune": "Toulouse",
+    "dep": 31,
+    "masks": 0
+  },
+  {
+    "company": "DGE Production",
+    "commune": "Vigoulet-Auzil",
+    "dep": 31,
+    "masks": 0
+  },
+  {
+    "company": "Missègle",
+    "commune": "Burlat",
+    "dep": 81,
+    "masks": 10000
+  },
+  {
+    "company": "Jules Tournier",
+    "commune": "Mazamet",
+    "dep": 81,
+    "masks": 20000
+  },
+  {
+    "company": "ETS Crambes",
+    "commune": "Caussade",
+    "dep": 82,
+    "masks": 5400
+  },
+  {
+    "company": "Bancarel Housses",
+    "commune": ["Rodez", "Vitry-sur-Seine"],
+    "dep": [12, 94],
+    "masks": 1000
+  },
+  {
+    "company": "LES ATELIERS FOURES",
+    "commune": "Graulhet",
+    "dep": 81,
+    "masks": 90001
+  },
+  {
+    "company": "Real Stamm / Royal Mer",
+    "commune": "La Regrippière",
+    "dep": 44,
+    "masks": 40000
+  },
+  {
+    "company": "Mode Grand Ouest",
+    "commune": "Cholet",
+    "dep": 49,
+    "masks": 198600
+  },
+  {
+    "company": "TDV Industries",
+    "commune": "Laval",
+    "dep": 53,
+    "masks": 150000
+  },
+  {
+    "company": "Drouault",
+    "commune": "Le Mans",
+    "dep": 72,
+    "masks": 5000
+  },
+  {
+    "company": "Annelise Morin - Plastigom - La Vague",
+    "commune": "Champagne",
+    "dep": 72,
+    "masks": 5170
+  },
+  {
+    "company": "Sedem",
+    "commune": "Falleron",
+    "dep": 85,
+    "masks": 7000
+  },
+  {
+    "company": "Mulliez-Flory",
+    "commune": "Le Longeron",
+    "dep": 49,
+    "masks": 10000
+  },
+  {
+    "company": "MALITERIE - LE SIEGE CHAILLARD",
+    "commune": ["Neuville", "Voray"],
+    "dep": [72, 25],
+    "masks": 6000
+  },
+  {
+    "company": "La toile du boulanger",
+    "commune": "Aubagne",
+    "dep": 13,
+    "masks": 800
+  },
+  {
+    "company": "13 A'TIPIK",
+    "commune": "Marseille",
+    "dep": 13,
+    "masks": 2000
+  },
+  {
+    "company": "Fil Rouge",
+    "commune": "Marseille",
+    "dep": 13,
+    "masks": 6000
+  },
+  {
+    "company": "Pamotex",
+    "commune": "international",
+    "masks": 0
+  },
+  {
+    "company": "Eminence",
+    "commune": "international",
+    "masks": 170000
+  },
+  {
+    "company": "Chantelle Lingerie",
+    "commune": "international",
+    "masks": 170000
+  },
+  {
+    "company": "Noyoco Studio",
+    "commune": "international",
+    "masks": 75000
+  },
+  {
+    "company": "Poyet Motte",
+    "commune": "international",
+    "masks": 200000
+  },
+  {
+    "company": "Latertex",
+    "commune": "international",
+    "masks": 10000
+  },
+  {
+    "company": "VPS Vêtement Proctection Sécurisé",
+    "commune": "international",
+    "masks": 0
+  },
+  {
+    "company": "Bluebuck Clothing",
+    "commune": "international",
+    "masks": 40000
+  },
+  {
+    "company": "Bohème SARL",
+    "commune": "international",
+    "masks": 0
+  },
+  {
+    "company": "DLC Invest/ DLC Medical",
+    "commune": "international",
+    "masks": 500000
+  },
+  {
+    "company": "Hanes France/DIM",
+    "commune": "international",
+    "masks": 500000
+  },
+  {
+    "company": "Ruko",
+    "commune": "international",
+    "masks": 600000
+  },
+  {
+    "company": "Sam Bettina",
+    "commune": "international",
+    "masks": 5000
+  },
+  {
+    "company": "TTK/Novatex",
+    "commune": "international",
+    "masks": 0
+  },
+  {
+    "company": "Ceetex",
+    "commune": "international",
+    "masks": 6000
+  },
+  {
+    "company": "Drextil Manufacture / Portugal",
+    "commune": "international",
+    "masks": 50000
+  },
+  {
+    "company": "MDB TEXINOV",
+    "commune": "international",
+    "masks": 2000
+  },
+  {
+    "company": "SWEAT France",
+    "commune": "international",
+    "masks": 0
+  }
+]
