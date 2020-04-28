@@ -1,42 +1,12 @@
-import React, {useState, useCallback, useEffect, useRef} from 'react'
+import React, {useRef} from 'react'
 import PropTypes from 'prop-types'
-import ReactMapGL, {Source, Layer, WebMercatorViewport} from 'react-map-gl'
+import ReactMapGL, {Source, Layer} from 'react-map-gl'
 
-import geo from '../../geo.json'
-
-const defaultViewport = {
-  latitude: 46.9,
-  longitude: 1.7,
-  zoom: 5
-}
+import useBounds from '../hooks/bounds'
 
 const Map = ({code, data, layers, hideAttribution, onHover, onClick, children}) => {
   const mapRef = useRef()
-
-  const [viewport, setViewport] = useState(defaultViewport)
-
-  const handleResize = useCallback(() => {
-    if (mapRef && mapRef.current) {
-      const {width, height} = mapRef.current.getBoundingClientRect()
-
-      if (width > 50 && height > 50) {
-        const {bbox} = geo[code]
-        const viewport = new WebMercatorViewport({width, height})
-          .fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], {padding: 20})
-
-        setViewport(viewport)
-      }
-    }
-  }, [mapRef, code])
-
-  useEffect(() => {
-    handleResize()
-    window.addEventListener('resize', handleResize)
-
-    return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [handleResize])
+  const viewport = useBounds(mapRef, code)
 
   return (
     <div ref={mapRef} className='react-map-container'>
@@ -56,7 +26,7 @@ const Map = ({code, data, layers, hideAttribution, onHover, onClick, children}) 
           touchZoom={false}
           attributionControl={!hideAttribution}
         >
-          {data &&
+          {data && (
             <Source
               type='geojson'
               attribution='Données Santé publique France'
@@ -66,7 +36,7 @@ const Map = ({code, data, layers, hideAttribution, onHover, onClick, children}) 
                 <Layer key={layer.id} {...layer} />
               ))}
             </Source>
-          }
+          )}
 
           {children}
         </ReactMapGL>
