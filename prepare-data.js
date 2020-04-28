@@ -18,6 +18,10 @@ const DATA_SOURCE = process.env.DATA_SOURCE || 'https://raw.githubusercontent.co
 
 const TESTS_SOURCE = 'https://www.data.gouv.fr/fr/datasets/r/b4ea7b4b-b7d1-4885-a099-71852291ff20'
 
+const MASKS_COMPANIES_SOURCE = require('./masks-companies.json')
+
+const INTERNATIONAL_CENTER = [-3.779, 45.782]
+
 async function fetchCsv(url, options = {}) {
   const rows = await getStream.array(
     got.stream(url)
@@ -59,6 +63,30 @@ function consolidate(records) {
         return acc
       }, {}), ['casConfirmes', 'deces', 'decesEhpad', 'casEhpad', 'casConfirmesEhpad', 'casPossiblesEhpad', 'reanimation', 'hospitalises', 'gueris', 'date', 'code', 'nom', 'testsRealises', 'testsPositifs', 'testsRealisesDetails', 'testsPositifsDetails'])
   })
+}
+
+async function loadMasks(masksCompanies) {
+  const communes = groupBy(masksCompanies, 'commune')
+  const companies = await Promise.all(Object.keys(communes).map(async commune => {
+    const nomCommune = communes[commune][0].commune
+
+    if (commune === 'international') {
+      return {
+        nom: 'international',
+        centre: {type: 'Point', coordinates: INTERNATIONAL_CENTER},
+        companies: communes[commune]
+      }
+    }
+
+    const url = `https://geo.api.gouv.fr/communes?nom=${nomCommune}&fields=centre,codeDepartement,codeRegion`
+    const results = await got(url, {responseType: 'json'})
+    return {
+      ...results.body[0],
+      companies: communes[commune]
+    }
+  }))
+
+  return companies
 }
 
 async function loadTests(url) {
@@ -174,10 +202,13 @@ async function main() {
   const tests = await loadTests(TESTS_SOURCE)
   const data = consolidate(filterRecords([...records, ...tests]))
 
+  const dataDirectory = join(__dirname, 'public', 'data')
+
+  const masks = await loadMasks(MASKS_COMPANIES_SOURCE)
+  await outputJson(join(dataDirectory, 'masks.json'), [...masks])
+
   const dates = uniq(data.map(r => r.date)).sort()
   const codes = uniq(data.map(r => r.code))
-
-  const dataDirectory = join(__dirname, 'public', 'data')
 
   await Promise.all(dates.map(async date => {
     await outputJson(join(dataDirectory, `date-${date}.json`), data.filter(r => r.date === date))
