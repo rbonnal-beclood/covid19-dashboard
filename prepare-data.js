@@ -66,7 +66,7 @@ function consolidate(records) {
 }
 
 async function loadMasks(masksCompanies) {
-  const communes = groupBy(masksCompanies, 'commune')
+  const communes = groupBy(masksCompanies.filter(({masks}) => masks > 0), 'commune')
   const companies = await Promise.all(Object.keys(communes).map(async commune => {
     const nomCommune = communes[commune][0].commune
 
@@ -78,7 +78,7 @@ async function loadMasks(masksCompanies) {
       }
     }
 
-    const url = `https://geo.api.gouv.fr/communes?nom=${nomCommune}&fields=centre,codeDepartement,codeRegion`
+    const url = `https://geo.api.gouv.fr/communes?nom=${nomCommune}&fields=centre,codeDepartement,codeRegion&boost=population`
     const results = await got(url, {responseType: 'json'})
     return {
       ...results.body[0],
