@@ -2,8 +2,8 @@ import React, {useContext, useCallback, useMemo} from 'react'
 import PropTypes from 'prop-types'
 import {sumBy, groupBy, flatten} from 'lodash'
 
-import regions from '../../../regions.json'
-import departements from '../../../departements.json'
+import departements from '@etalab/decoupage-administratif/data/departements.json'
+import regions from '@etalab/decoupage-administratif/data/regions.json'
 
 import colors from '../../../styles/colors'
 import Counter from '../../counter'
@@ -135,10 +135,10 @@ const MasksStatistics = () => {
 
     return Object.keys(regionGroup).map(code => {
       const communes = regionGroup[code]
-      const {region} = regions.find(r => r.code.split('-')[1] === code) || {region: 'International'}
+      const {nom} = regions.find(r => r.code.split('-')[1] === code) || {nom: 'International'}
       return {
         code,
-        nom: region,
+        nom,
         companies: flatten(communes.map(c => c.companies))
       }
     })
@@ -150,10 +150,10 @@ const MasksStatistics = () => {
 
     return Object.keys(departementGroup).map(code => {
       const communes = departementGroup[code]
-      const {departement} = departements.find(r => r.codeDepartement === code)
+      const {nom} = departements.find(d => d.code === code)
       return {
         code,
-        nom: departement,
+        nom,
         companies: flatten(communes.map(c => c.companies))
       }
     })
